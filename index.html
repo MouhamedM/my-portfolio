@@ -17,9 +17,9 @@
                 📧 <a href="mailto:mohammedlhassani@outlook.com"
                     style="color:inherit; text-decoration:underline;">mohammedlhassani@outlook.com</a> • 📞 <a
                     href="tel:+212641606904" style="color:inherit; text-decoration:underline;">
-                        +212 641 606 904 &#x1F4DE;  +212 689 767 005
-                      </a>
-                                  </p>
+                    +212 641 606 904 &#x1F4DE; +212 689 767 005
+                </a>
+            </p>
             <button class="announce-cv-btn" onclick="downloadCV()">
                 📄 Télécharger CV
             </button>
@@ -141,7 +141,8 @@
                     <div class="skill-category">
                         <h3>Design Graphique</h3>
                         <p>Adobe Photoshop, Adobe Illustrator, Figma
-                        <br>Canva</p>
+                            <br>Canva
+                        </p>
                     </div>
                     <div class="skill-category">
                         <h3>Bureautique</h3>
@@ -330,11 +331,17 @@
 
 
     <!-- Footer -->
+
     <footer class="footer">
         <div class="container">
-            <p>&copy; 2024 Mohammed EL Hassani. Tous droits réservés.</p>
+            <p>&copy; <span id="year"></span> Mohammed EL Hassani. Tous droits réservés.</p>
         </div>
     </footer>
+
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+
 
     <script src="script.js"></script>
 </body>
