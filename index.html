@@ -330,11 +330,15 @@
 
 
     <!-- Footer -->
-    <footer class="footer">
+  <footer class="footer">
         <div class="container">
-            <p>&copy; 2024 Mohammed EL Hassani. Tous droits réservés.</p>
+            <p>&copy; <span id="year"></span> Mohammed EL Hassani. Tous droits réservés.</p>
         </div>
     </footer>
+
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
 
     <script src="script.js"></script>
 </body>
