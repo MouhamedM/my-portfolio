@@ -2,8 +2,9 @@
 
 **Infographiste | Parcours en développement web**  
 
-Email : mohammedlhassani@outlook.com  
+Email : [mohammedlhassani@outlook.com](mailto:mohammedlhassani@outlook.com)  
 Téléphone : +212 641 606 904 🕻 +212 689 767 005  
+Portfolio : [https://mouhamedm.github.io/my-portfolio/](https://mouhamedm.github.io/my-portfolio/)  
 Localisation : Rabat, Maroc  
 
 ---

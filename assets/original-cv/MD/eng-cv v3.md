@@ -2,8 +2,9 @@
 
 **Graphic Designer | Web Development Skills**  
 
-Email: mohammedlhassani@outlook.com  
-Phone: +212 641 606 904 🕻 +212 689 767 005   
+Email: [mohammedlhassani@outlook.com](mailto:mohammedlhassani@outlook.com)  
+Phone: +212 641 606 904 🕻 +212 689 767 005  
+Portfolio: [https://mouhamedm.github.io/my-portfolio/](https://mouhamedm.github.io/my-portfolio/)  
 Location: Rabat, Morocco  
 
 ---
