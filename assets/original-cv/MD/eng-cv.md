@@ -40,7 +40,7 @@ Graphic Designer (Specialized Technician in Graphic Design – OFPPT) with a sol
 
 ## Professional Experience
 
-### Graphic Designer – EZPAC SARL, Rabat  
+### Graphic Designer – EZPAC SARL, Aïn Atiq  
 **Nov 2024 – Aug 2025**  
 - Managed pre-press operations and supervised printing processes, including on **HP Indigo 20K**.  
 - Prepared and validated client proofs (BAT – Bon à Tirer), ensuring color accuracy and compliance with requirements.  

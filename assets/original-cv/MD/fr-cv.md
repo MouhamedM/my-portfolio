@@ -39,7 +39,7 @@ Infographiste (Technicien Spécialisé en Infographie – OFPPT) avec une solide
 
 ## Expérience professionnelle
 
-### Infographiste – EZPAC SARL, Rabat  
+### Infographiste – EZPAC SARL, Aïn Atiq  
 **Nov 2024 – Août 2025**  
 - Gestion des opérations de prépresse et supervision des processus d’impression, y compris sur **HP Indigo 20K**.  
 - Préparation et validation des BAT (Bon à Tirer) pour les clients, en garantissant l’exactitude des couleurs et la conformité aux exigences.  
