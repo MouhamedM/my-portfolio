@@ -43,9 +43,8 @@ Graphic Designer (Specialized Technician in Graphic Design – OFPPT) with a sol
 
 ### Graphic Designer – EZPAC SARL, Aïn Atiq  
 **Nov 2024 – Aug 2025**  
-- Managed pre-press operations and supervised printing processes, including on **HP Indigo 20K**.
-- Operated and maintained HP Indigo 20K digital press for packaging production **HP Indigo 20K**.
-- Prepared print-ready designs using Adobe Photoshop and Illustrator **HP Indigo 20K**.
+
+- Managed HP Indigo 20K prepress and digital printing workflows, including white ink preparation in Adobe Photoshop and Illustrator.
 - Adjusted rouleaux, calibrated color settings, and solved print quality issues **HP Indigo 20K**.
 - Prepared and validated client proofs (BAT – Bon à Tirer), ensuring color accuracy and compliance with requirements.  
 - Developed and launched a **Django/Streamlit tool**: [suivi-rouleaux.streamlit.app](https://suivi-rouleaux.streamlit.app) to track and manage inventory.  
