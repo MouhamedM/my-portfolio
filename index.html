@@ -1,36 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mohammed EL Hassani - Infographiste & Parcours en développement web</title>
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mohammed EL Hassani - Infographiste & Développement Web</title>
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap"
+        rel="stylesheet"
+    />
 </head>
 
 <body>
-    <!-- Announcement Bar -->
+
+    <!-- ================= Announcement Bar ================= -->
     <div class="announce-bar">
         <div class="announce-container">
             <p class="announce-text">
-                📧 <a href="mailto:mohammedlhassani@outlook.com"
-                    style="color:inherit; text-decoration:underline;">mohammedelhassani04@gmail.com
-></a> • 📞 <a
-                    href="tel:+212641606904" style="color:inherit; text-decoration:underline;">
-                    +212 641 606 904 &#x1F4DE; +212 689 767 005
+                📧
+                <a href="mailto:mohammedelhassani04@gmail.com" class="underline">
+                    mohammedelhassani04@gmail.com
+                </a>
+                • 📞
+                <a href="tel:+212641606904" class="underline">
+                    +212 641 606 904 • +212 689 767 005
                 </a>
             </p>
+
             <button class="announce-cv-btn" onclick="downloadCV()">
                 📄 Télécharger CV
             </button>
         </div>
     </div>
 
-    <!-- Navigation -->
+    <!-- ================= Navigation ================= -->
     <nav class="nav">
         <div class="nav-container">
             <a href="#home" class="nav-logo">ML</a>
+
             <div class="nav-menu" id="nav-menu">
                 <a href="#home" class="nav-link">Accueil</a>
                 <a href="#about" class="nav-link">À propos</a>
@@ -40,6 +49,7 @@
                 <a href="#references" class="nav-link">Références</a>
                 <a href="#contact" class="nav-link">Contact</a>
             </div>
+
             <div class="nav-toggle" id="nav-toggle">
                 <span></span>
                 <span></span>
@@ -48,28 +58,31 @@
         </div>
     </nav>
 
-    <!-- Hero Section -->
+    <!-- ================= Hero Section ================= -->
     <section id="home" class="hero">
         <div class="container">
             <div class="hero-content">
+
                 <div class="hero-badge">
                     <span class="badge-text">Disponible pour nouveaux projets</span>
                 </div>
+
                 <h1 class="hero-title">Mohammed EL Hassani</h1>
                 <p class="hero-subtitle">Infographiste & Parcours en développement web</p>
+
                 <p class="hero-description">
                     Je transforme vos idées en expériences visuelles captivantes.
                     Spécialisé dans le design graphique moderne et le développement web,
-                    je crée des solutions qui allient <strong>esthétique</strong> et <strong>performance</strong>.
+                    je crée des solutions qui allient <strong>esthétique</strong> et
+                    <strong>performance</strong>.
                 </p>
+
                 <div class="hero-stats">
                     <div class="stat-item">
                         <span class="stat-number">2+</span>
                         <span class="stat-label">Années</span>
                     </div>
-                    <div class="stat-item">
 
-                    </div>
                     <div class="stat-item">
                         <span class="stat-number">100%</span>
                         <span class="stat-label">Satisfaction</span>
@@ -82,288 +95,135 @@
                 </div>
 
                 <div class="hero-contact">
-                    <a href="mailto:mohammedlhassani@outlook.com" class="contact-link">
-                        mohammedlhassani@outlook.com
+                    <a href="mailto:mohammedelhassani04@gmail.com" class="contact-link">
+                        mohammedelhassani04@gmail.com
                     </a>
                     <span class="contact-divider">•</span>
                     <a href="tel:+212641606904" class="contact-link">
                         +212 641 606 904
                     </a>
                 </div>
+
             </div>
         </div>
     </section>
 
-    <!-- About Section -->
+    <!-- ================= About Section ================= -->
     <section id="about" class="about">
         <div class="container">
             <h2 class="section-title">À propos</h2>
+
             <div class="about-content">
                 <p>
-                <p>
-                    Titulaire d'un Baccalauréat obtenu en 2021, et Technicien spécialisé en infographie (OFPPT) avec une
-                    solide expérience en conception graphique et développement web.
+                    Titulaire d'un Baccalauréat obtenu en 2021, et Technicien spécialisé en
+                    infographie (OFPPT) avec une solide expérience en conception graphique
+                    et développement web.
                 </p>
 
-
-                </p>
                 <p>
-                    Mon objectif est de mettre mes compétences techniques et créatives au service de projets
-                    ambitieux, en alliant esthétique moderne et fonctionnalité optimale.
+                    Mon objectif est de mettre mes compétences techniques et créatives au
+                    service de projets ambitieux, en alliant esthétique moderne et
+                    fonctionnalité optimale.
                 </p>
 
                 <div class="about-highlights">
                     <div class="highlight-item">
                         <div class="highlight-icon">🎨</div>
                         <h3>Design Créatif</h3>
-                        <p>Création de visuels impactants avec une approche moderne et innovante</p>
+                        <p>Création de visuels impactants et modernes</p>
                     </div>
+
                     <div class="highlight-item">
                         <div class="highlight-icon">💻</div>
                         <h3>Développement Web</h3>
-                        <p>Solutions web responsives et performantes avec les dernières technologies</p>
+                        <p>Solutions web responsives et performantes</p>
                     </div>
+
                     <div class="highlight-item">
                         <div class="highlight-icon">⚡</div>
                         <h3>Livraison Rapide</h3>
-                        <p>Respect des délais avec une qualité professionnelle garantie</p>
+                        <p>Respect des délais avec qualité professionnelle</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <!-- Skills Section -->
-<section id="skills" class="skills">
-  <div class="container">
-    <h2 class="section-title">Compétences</h2>
-    <div class="skills-content">
 
-      <div class="skills-row">
-        <div class="skill-category">
-          <h3>Design Graphique</h3>
-          <p>Adobe Photoshop, Adobe Illustrator, Figma<br>
-            Canva
-          </p>
-        </div>
-        <div class="skill-category">
-          <h3>Bureautique</h3>
-          <p>Microsoft Word, Microsoft Excel</p>
-        </div>
-      </div>
-
-      <div class="skills-row">
-        <div class="skill-category">
-          <h3>Développement Web</h3>
-          <p>HTML5, CSS3, Tailwind CSS (avancé),<br>
-            Django, Next.js, Nuxt.js (débutant)<br>
-            Streamlit (pro), Github (pro)<br>
-            Markdown (avancé), Ngrok (test d’applications en ligne)
-          </p>
-        </div>
-        <div class="skill-category">
-          <h3>Intelligence Artificielle</h3>
-          <p>AI Prompting (Texte), AI Prompting (Image)</p>
-        </div>
-      </div>
-
-      <div class="skills-row">
-        <div class="skill-category">
-          <h3>Impression & Prépresse</h3>
-          <p>
-            Managed <strong>HP Indigo 20K</strong> prepress and digital printing workflows, 
-            including <strong>white ink preparation</strong> in Adobe Photoshop and Illustrator.<br>
-            Operated and maintained the HP Indigo 20K digital press for high-quality packaging production.
-          </p>
-        </div>
-        <div class="skill-category">
-          <h3>Langues</h3>
-          <p>Arabe (Natif), Français (A2), Anglais (B1)</p>
-        </div>
-      </div>
-
-      <div class="skills-row">
-        <div class="skill-category">
-          <h3>Projets</h3>
-          <p>
-            <a href="https://suivi-rouleaux.streamlit.app/" target="_blank">Suivi des Rouleaux</a>
-          </p>
-        </div>
-      </div>
-
-    </div>
-  </div>
-</section>
-
-
-    <!-- Experience Section -->
-    <section id="experience" class="experience">
+    <!-- ================= Skills Section ================= -->
+    <section id="skills" class="skills">
         <div class="container">
-            <h2 class="section-title">Éducation et Expérience</h2>
+            <h2 class="section-title">Compétences</h2>
 
-            <div class="timeline">
-                <div class="timeline-item">
-                    <div class="timeline-date">Nov 2024 - Août 2025</div>
-                    <div class="timeline-content">
-                        <h3>Infographic Designer</h3>
-                        <h4>EZPAC SARL | Aïn Atiq</h4>
-                        <p>Conception graphique, prépresse et développement de supports visuels pour l'industrie de
-                            l'emballage.</p>
+            <div class="skills-content">
+                <div class="skills-row">
+                    <div class="skill-category">
+                        <h3>Design Graphique</h3>
+                        <p>Photoshop, Illustrator, Figma, Canva</p>
+                    </div>
+
+                    <div class="skill-category">
+                        <h3>Bureautique</h3>
+                        <p>Microsoft Word, Excel</p>
                     </div>
                 </div>
 
-                <div class="timeline-item">
-                    <div class="timeline-date">Juin 2025</div>
-                    <div class="timeline-content">
-                        <h3>Diplôme en Infographic Design</h3>
-                        <h4>OFPPT - Technicien Spécialisé en Infographie (Étudiant libre)</h4>
-                        <p>Obtention du diplôme en tant qu'étudiant libre avec validation des compétences et examens
-                            finaux.</p>
+                <div class="skills-row">
+                    <div class="skill-category">
+                        <h3>Développement Web</h3>
+                        <p>
+                            HTML5, CSS3, Tailwind CSS<br />
+                            Django, Next.js, Nuxt.js<br />
+                            Streamlit, GitHub, Markdown, Ngrok
+                        </p>
+                    </div>
+
+                    <div class="skill-category">
+                        <h3>Intelligence Artificielle</h3>
+                        <p>AI Prompting (Texte & Image)</p>
                     </div>
                 </div>
 
-                <div class="timeline-item">
-                    <div class="timeline-date">2022 - 2024</div>
-                    <div class="timeline-content">
-                        <h3>Diplôme en Infographic Design</h3>
-                        <h4>OFPPT - Technicien Spécialisé en Infographie (Présentiel)</h4>
-                        <p>Formation complète en design graphique, techniques d'impression et outils de création
-                            numérique.</p>
+                <div class="skills-row">
+                    <div class="skill-category">
+                        <h3>Impression & Prépresse</h3>
+                        <p>
+                            Gestion HP Indigo 20K, workflows prépresse,
+                            préparation encre blanche
+                        </p>
+                    </div>
+
+                    <div class="skill-category">
+                        <h3>Langues</h3>
+                        <p>Arabe (Natif), Français (A2), Anglais (B1)</p>
                     </div>
                 </div>
 
-                <div class="timeline-item">
-                    <div class="timeline-date">2022 - 2024</div>
-                    <div class="timeline-content">
-                        <h3>Stagiaire</h3>
-                        <h4>Marwa Print | Rabat</h4>
-                        <p>Stages en décembre, février et avril (3 mois en 2022-2023) et également 3 mois en 2023-2024
-                            (décembre, février, avril), avec autorisation OFPPT. Premières expériences pratiques en
-                            infographie et techniques d'impression.</p>
-                    </div>
-                </div>
-
-                <div class="timeline-item">
-                    <div class="timeline-date">2021 - 2022</div>
-                    <div class="timeline-content">
-                        <h3>Études de droit</h3>
-                        <h4>Université Mohammed V | Rabat</h4>
-                        <p></p>
-                    </div>
-                </div>
-
-                <div class="timeline-item">
-                    <div class="timeline-date">Juin 2021</div>
-                    <div class="timeline-content">
-                        <h3>Baccalauréat</h3>
-                        <h4>Lycée Ibno Rochd | Rabat</h4>
-                        <p>Obtention du Baccalauréat en 2021.</p>
+                <div class="skills-row">
+                    <div class="skill-category">
+                        <h3>Projet</h3>
+                        <p>
+                            <a href="https://suivi-rouleaux.streamlit.app/" target="_blank">
+                                Suivi des Rouleaux
+                            </a>
+                        </p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-
-    <!-- Trusted Companies Section -->
-    <section id="companies" class="companies">
-        <div class="container">
-            <h2 class="section-title">Ils m'ont fait confiance</h2>
-            <div class="companies-logos">
-                <a href="https://www.ezpac.net" target="_blank" rel="noopener noreferrer">
-                    <img src="images/ezpac-logo.png" alt="EZPAC" class="company-logo" />
-                </a>
-                <a href="https://facebook.com/MarwaPrint" target="_blank" rel="noopener noreferrer">
-                    <img src="images/marwa-print-logo.png" alt="Marwa Print" class="company-logo" />
-                </a>
-            </div>
-        </div>
-    </section>
-
-    <!-- References Section -->
-    <section id="references" class="references">
-        <div class="container">
-            <h2 class="section-title">Références</h2>
-            <div class="references-grid">
-                <div class="reference-item">
-                    <h3>EZPAC SARL</h3>
-                    <div class="reference-details">
-                        <p><strong>Yassine Cherkaoui</strong> - Manager</p>
-                        <p><a href="tel:+212616163536">+212 616163536</a></p>
-                        <p><a href="http://www.ezpac.net" target="_blank">www.ezpac.net</a></p>
-                    </div>
-                </div>
-                <div class="reference-item">
-                    <h3>Marwa Print</h3>
-                    <div class="reference-details">
-                        <p><strong>Contact</strong></p>
-                        <p><a href="tel:+212808510453">+212 808510453</a></p>
-                        <p><a href="https://facebook.com/MarwaPrint" target="_blank">Facebook: Marwa Print</a></p>
-                    </div>
-                </div>
-                <div class="reference-item">
-                    <h3>OFPPT</h3>
-                    <div class="reference-details">
-                        <p><strong>Administration</strong></p>
-                        <p><a href="tel:+212537798184">+212 537798184</a></p>
-                        <p><a href="http://www.ofppt.ma" target="_blank">www.ofppt.ma</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact" class="contact">
-        <div class="container">
-            <h2 class="section-title">Contact</h2>
-            <div class="contact-content">
-                <div class="contact-info">
-                    <div class="contact-item">
-                        <strong>Email:</strong>
-                        <a href="mailto:mohammedelhassani04@gmail.com
-">mohammedelhassani04@gmail.com
-
-</a>
-                    </div>
-                    <div class="contact-item">
-                        <strong>Téléphone:</strong>
-                        <a href="tel:+212641606904">+212 641 606 904 - +212 689 767 005</a>
-                    </div>
-                    <div class="contact-item">
-                        <strong>Localisation:</strong>
-                        <span>Maroc</span>
-                    </div>
-                </div>
-                <div class="contact-actions">
-                    <button class="btn-primary" onclick="downloadCV()">Télécharger mon CV</button>
-                    <a href="mailto:mohammedelhassani04@gmail.com
-" class="btn-secondary">M'envoyer un email</a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-
-    <!-- Footer -->
-
-
+    <!-- ================= Footer ================= -->
     <footer class="footer">
-
-  <footer class="footer">
-
         <div class="container">
             <p>&copy; <span id="year"></span> Mohammed EL Hassani. Tous droits réservés.</p>
         </div>
     </footer>
 
+    <!-- ================= Scripts ================= -->
     <script>
-        document.getElementById('year').textContent = new Date().getFullYear();
+        document.getElementById("year").textContent = new Date().getFullYear();
     </script>
-
-
-
     <script src="script.js"></script>
-</body>
 
+</body>
 </html>
