@@ -14,12 +14,11 @@ Infographiste (Technicien Spécialisé en Infographie – OFPPT) avec une solide
 ---
 
 ## Formation
-- **Nov 2025 – En cours (4 mois)** : Bootcamp Développeur Full Stack – Jobintech x Orange, Rabat  
-  Soutenu par le Ministère de la Transition Numérique, en partenariat avec CDG, opéré par Maroc Cluster (présentiel).
-- **Juin 2025** : Diplôme en Infographie – OFPPT  
-  Technicien Spécialisé en Infographie.
-- **2021** : Études de droit – Université Mohammed V, Rabat
+
+- **2022 – Juin 2025** : Diplôme en Infographie – Technicien Spécialisé en Infographie (OFPPT, alternée)  
 - **Juin 2021** : Baccalauréat – Rabat
+
+
 
 ---
 
@@ -52,7 +51,7 @@ Infographiste (Technicien Spécialisé en Infographie – OFPPT) avec une solide
 
 ### Infographiste – EZPAC SARL, Aïn Atiq
 **Nov 2024 – Août 2025**
-- Gestion des opérations de prépresse et supervision des processus d’impression **HP Indigo 20K**, incluant la préparation de l’encre blanche sous Adobe Photoshop et Illustrator.
+- Gestion des opérations de prépresse et supervision des processus d’impression HP Indigo 20K, incluant la préparation du white ink sous Adobe Photoshop et Illustrator.
 - Préparation et validation des BAT pour les clients.
 - Création d’un outil Django / Streamlit : https://suivi-rouleaux.streamlit.app
 - Automatisation de tâches Excel.
